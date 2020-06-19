@@ -4,12 +4,14 @@
 # Prerequistes
 * Oracle VirtualBox
 
-# tools included
-* Terraform
+# Tools included
+* Terraform - 0.12.26
+* Packer - 1.6.0
 * AWS CLI
 * Ansible
-* Packer
 * Docker
+* unzip
+* wget
 
 # Command
 * vagrant up
