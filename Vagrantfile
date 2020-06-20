@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
       		devbox.vm.provision "setup-dns", type: "shell", :path => "scripts/update-dns.sh"
     		devbox.vm.provider "virtualbox" do |v|
     		  v.name = "devops-box"
-    		  v.memory = 4096
+    		  v.memory = 2048
     		  v.cpus = 2
     		end
 	end
